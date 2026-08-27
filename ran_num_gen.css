@@ -1,0 +1,105 @@
+.quantico-regular {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quantico-bold {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.quantico-regular-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.quantico-bold-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+    background-color: lightblue;
+    text-align: center;
+  margin: 0;
+  padding: 25px 20px 40px;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+  margin: 0 0 55px;
+}
+
+p {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.num_display_box {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display:grid;
+    place-items: center;
+    margin: 10px auto;
+    background-color: white;
+}
+
+p2 {
+color:black;
+font-size: 55px;
+}
+
+button {
+    font-size: 15px;
+    width: 200px;
+    height: auto;
+}
+
+h2 {
+    width: min(900px, 100%);
+    min-height: 55px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin: 30px auto 0;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: white;
+}
+
+.log_results {
+    width: min(900px, 100%);
+    height: auto;
+    min-height: 180px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: white;
+}
+
+#logResults {
+    margin: 0;
+    padding-left: 25px;
+}
+
+label {
+    font-family: "Quantico", sans-serif;
+    font-weight: 0;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+
